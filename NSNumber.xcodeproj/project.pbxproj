@@ -24,6 +24,7 @@
 		CF7E4112168014DB00FFE4D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7E40EA168014DB00FFE4D7 /* Foundation.framework */; };
 		CF7E411A168014DB00FFE4D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7E4118168014DB00FFE4D7 /* InfoPlist.strings */; };
 		CF7E411D168014DB00FFE4D7 /* NSNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E411C168014DB00FFE4D7 /* NSNumberTests.m */; };
+		CFC07DDA168B9A7900CF6F26 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = CFC07DD9168B9A7900CF6F26 /* 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		CF7E4119168014DB00FFE4D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF7E411B168014DB00FFE4D7 /* NSNumberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNumberTests.h; sourceTree = "<group>"; };
 		CF7E411C168014DB00FFE4D7 /* NSNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberTests.m; sourceTree = "<group>"; };
+		CFC07DD9168B9A7900CF6F26 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../../../Downloads/0.png; sourceTree = "<group>"; };
+		CFD96A431699404800A0A64E /* NSDecimalNumber_nsdecimalnumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumber_nsdecimalnumber.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +122,14 @@
 		CF7E40EE168014DB00FFE4D7 /* NSNumber */ = {
 			isa = PBXGroup;
 			children = (
+				CFC07DD9168B9A7900CF6F26 /* 0.png */,
 				CF7E40F7168014DB00FFE4D7 /* AppDelegate.h */,
 				CF7E40F8168014DB00FFE4D7 /* AppDelegate.m */,
 				CF7E4100168014DB00FFE4D7 /* MainStoryboard_iPhone.storyboard */,
 				CF7E4103168014DB00FFE4D7 /* MainStoryboard_iPad.storyboard */,
 				CF7E4106168014DB00FFE4D7 /* ViewController.h */,
 				CF7E4107168014DB00FFE4D7 /* ViewController.m */,
+				CFD96A431699404800A0A64E /* NSDecimalNumber_nsdecimalnumber.h */,
 				CF7E40EF168014DB00FFE4D7 /* Supporting Files */,
 			);
 			path = NSNumber;
@@ -240,6 +245,7 @@
 				CF7E40FF168014DB00FFE4D7 /* Default-568h@2x.png in Resources */,
 				CF7E4102168014DB00FFE4D7 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CF7E4105168014DB00FFE4D7 /* MainStoryboard_iPad.storyboard in Resources */,
+				CFC07DDA168B9A7900CF6F26 /* 0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				CF7E4122168014DB00FFE4D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF7E4123168014DB00FFE4D7 /* Build configuration list for PBXNativeTarget "NSNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				CF7E4125168014DB00FFE4D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

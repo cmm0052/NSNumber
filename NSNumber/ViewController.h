@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *Label;
+    long double z;
+    NSDecimalNumber *tester;
+}
+- (IBAction)test:(id)sender;
+
 
 @end
